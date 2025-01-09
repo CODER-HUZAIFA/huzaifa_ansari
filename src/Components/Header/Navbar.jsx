@@ -1,5 +1,8 @@
 import React from 'react'
 import './nav.css'
+
+import { NavLink } from 'react-router-dom'
+
 const Navbar = () => {
   return (
     <>
@@ -10,11 +13,10 @@ const Navbar = () => {
             </div>
             <div className="lists">
                 <ul className='flex gap-[27px] text-[16px]'>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#" className='soon '>Soon</a></li>
+                    <li><NavLink to="/" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>Home</NavLink></li>
+                    <li><NavLink to="/about" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>About</NavLink></li>
+                    <li><NavLink to="/services" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>Services</NavLink></li>
+                    <li><NavLink to="/contact" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>Contact Us</NavLink></li>
                 </ul>
             </div>
         </nav>
