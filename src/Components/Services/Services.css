@@ -1,0 +1,35 @@
+.serviceContent {
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
+.serviceHeading {
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.services p{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cardTitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cardDescription {
+    font-family: 'Poppins';
+    font-size: 13px;
+    text-align: center;
+}
+
+.cardBtn {
+    background-color: #ff4400;
+    color: white;
+    font-size: 13px;
+}
