@@ -1,0 +1,28 @@
+.aboutMyName {
+    font-family: 'Azeret Mono';
+    font-size: 23px;
+}
+
+.aboutMyName span {
+    color: #ff4400;
+}
+
+.aboutMySelfHeading {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.aboutMySelf {
+    width: 514px;
+    font-family: 'Chivo Mono';
+    font-size: 15px;
+}
+
+.quote p {
+    font-family: 'Baloo Bhaijaan 2';
+    font-weight: bolder;
+    font-size: 25px;
+    color: #ff4400;
+}
