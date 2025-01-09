@@ -1,0 +1,42 @@
+.projectHeading p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.project {
+    background-color: #DEDEDE;
+}
+
+.projectName {
+    font-family: 'Poppins';
+    width: calc(100% - 45px);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.projectTxt .A {
+    font-family: 'Poppins';
+    font-size: 23px;
+}
+
+.projectTxt .B {
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+    color: #FF4400;
+}
+
+.projectTxt .C {
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.C .future {
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: underline;
+}

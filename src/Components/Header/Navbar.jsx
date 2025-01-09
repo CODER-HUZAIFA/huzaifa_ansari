@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <>
         <nav className='nav w-full h-[60px] px-[35px] flex items-center justify-between'>
-            <div className="myName flex gap-[20px] items-center">
+            <div className="flex gap-[20px] items-center">
                 <img src="images/profile_image.svg" alt="Huzaifa Ansari" className='h-[50px] w-[50px] rounded-full' />
-                <p>HUZAIFA ANSARI</p>
+                <p className='myName'>HUZAIFA ANSARI</p>
             </div>
             <div className="lists">
                 <ul className='flex gap-[27px] text-[16px]'>
