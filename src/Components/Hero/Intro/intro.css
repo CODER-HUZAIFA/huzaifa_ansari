@@ -13,10 +13,11 @@
     font-family: 'Azeret Mono';
     font-size: 23px;
     color: #FF4400;
+    padding-bottom: 5px;
 }
 
 .subHeading {
-    font-size: 19px;
+    font-size: 21px;
     font-family: 'Baloo 2';
     font-weight: 600;
 }
@@ -24,5 +25,5 @@
 .content {
     width: 514px;
     font-family: 'Poppins';
-    font-size: 12px;
+    font-size: 15px;
 }

@@ -39,6 +39,22 @@
     height: 3px;
 }
 
+.lists .navActive {
+    color: #FF4400;
+}
+
+.lists .navActive::after {
+    content: '';
+    width: 100%;
+    border-radius: 3px;
+    height: 3px;
+    background-color: #FF4400;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    transform: translateX(50%, 50%);
+}
+
 .soon {
     color: #FF4400;
     font-size: 16px;

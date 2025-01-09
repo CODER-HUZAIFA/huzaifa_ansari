@@ -13,7 +13,7 @@ const Navbar = () => {
             </div>
             <div className="lists">
                 <ul className='flex gap-[27px] text-[16px]'>
-                    <li><NavLink to="/" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>Home</NavLink></li>
+                    <li><NavLink to="/" className={({ isActive }) => `${isActive ? "navActive" : ""} `}>Home</NavLink></li>
                     <li><NavLink to="/about" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>About</NavLink></li>
                     <li><NavLink to="/services" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>Services</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive }) => `${isActive ? "navActive" : ""}`}>Contact Us</NavLink></li>
