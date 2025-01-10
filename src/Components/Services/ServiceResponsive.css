@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .servicePage {
+        padding: 0px 0px 0px 50px !important;
+    }
+
+    .serviceTxt {
+        padding-right: 30px;
+    }
+}
+

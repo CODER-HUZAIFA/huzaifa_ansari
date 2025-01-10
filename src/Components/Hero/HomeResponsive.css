@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .HomeProjectSection {
+        flex-direction: column-reverse;
+    }
+    .HomeProjectSection .projectTxt {
+        margin-top: 0px;
+    }
+    .HomeHeader {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 425px) {
+    .content {
+        width: 100%;
+    }
+
+    .HomeHeader {
+        padding-left: 30px;
+    }
+    .mainProject {
+        padding-left: 30px;
+    }
+    .mainTechnologies {
+        padding-left: 30px;
+    }
+}

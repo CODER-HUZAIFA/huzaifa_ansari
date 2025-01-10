@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 const App = () => {
   return (
     <>
-      <main className='p-1 w-full min-h-full'>
+      <main className='p-[4px] relative'>
         <Navbar />
           <Outlet />
         <Footer />

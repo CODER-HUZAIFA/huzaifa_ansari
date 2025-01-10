@@ -3,7 +3,7 @@ import React from 'react'
 const Profile = () => {
   return (
     <>
-        <div className="main border-[0.5px] border-black w-[210px] h-[235px]">
+        <div className="main border-[0.5px] border-black w-fit h-[235px]">
             <div className="w-full">
                 <img src="images/profile_image.svg" alt="Huzaifa Ansari" />
             </div>

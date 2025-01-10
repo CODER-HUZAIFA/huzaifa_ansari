@@ -2,4 +2,9 @@
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 24px;
+    overflow: hidden;
+}
+
+.allTechno {
+    overflow: hidden;
 }

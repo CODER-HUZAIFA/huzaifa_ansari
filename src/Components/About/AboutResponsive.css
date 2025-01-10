@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    .mainAbout {
+        flex-direction: column-reverse;
+        padding: 0px 0px 0px 50px;
+    }
+
+    .aboutProfile {
+        align-items: start;
+    }
+
+    .aboutProfile .quote {
+        align-items: start;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .mainAbout {
+        padding-left: 30px !important;
+    }
+    
+    .quote .quoteTxt {
+        font-weight: bold;
+        font-size: 17px;
+        color: #ff4400;
+    }
+    .aboutMySelf {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainAbout {
+        flex-direction: column-reverse;
+        padding: 0px 0px 0px 50px;
+    }
+
+    .aboutProfile {
+        align-items: start;
+    }
+
+    .aboutProfile .quote {
+        align-items: start;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}

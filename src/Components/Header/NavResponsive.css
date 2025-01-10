@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .lists ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .lists {
+        display: none;
+        width: 100%;
+    }
+
+    .menu img {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .myName{
+        font-size: 20px;
+    }
+
+    #huzaifa {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navProfile {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 375px) {
+    .myName {
+        font-size: 18px;
+    }
+}

@@ -1,11 +1,12 @@
 import React from 'react'
 import Profile from '../Hero/Intro/Profile'
 import './About.css'
+import './AboutResponsive.css'
 
 const About = () => {
   return (
     <>
-      <div className="w-full mt-[84px] flex justify-around">
+      <div className="mainAbout w-full mt-[84px] flex flex-wrap justify-around">
         <div className="">
           <div className="mb-[20px]">
             <p className='aboutMyName'>Meet - <span>HUZAIFA ANSARI</span></p>
@@ -27,7 +28,7 @@ const About = () => {
             <p className='aboutMySelf'>Let’s collaborate, innovate, and build something extraordinary together! 🚀</p>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-[20px] h-fit">
+        <div className="aboutProfile flex flex-col items-center gap-[20px] h-fit">
           <div className=""><Profile /></div>
           <div className="quote flex flex-col items-center mt-[50px]">
             <p className='quoteTxt'>Fueled by passion, driven by dreams,</p>

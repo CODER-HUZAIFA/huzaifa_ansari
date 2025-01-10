@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Contact.css'
+import './ContactResponsive.css'
 import Profile from '../Hero/Intro/Profile'
+
 const Contact = () => {
   const [submitStatus, setSubmitStatus] = useState(false);
   const [status, setStatus] = useState(false)
@@ -48,7 +50,7 @@ const Contact = () => {
   return (
     <>
       <div className="w-full h-full flex justify-around mt-[84px]">
-        <div className={`${status ? "z-[-100] bg-[#a4a4a44f]" : "z-[100] bg-[#dedede]"}  p-6 rounded-lg w-[400px]`}>
+        <div className={`${status ? "z-[-100] bg-[#a4a4a44f]" : "bg-[#dedede]"}  p-6 rounded-lg w-[400px]`}>
           <h2 className="text-center text-xl font-semibold mb-4">Contact Us</h2>
           <p className='text-sm w-full h-[15px] text-green-500 status'>{submitStatus ? "Data Saved Successfully" : ""}</p>
           <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
@@ -144,7 +146,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="">
+        <div className="contactProfile">
           <Profile />
         </div>
       </div>
