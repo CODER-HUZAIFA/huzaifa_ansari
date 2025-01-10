@@ -25,7 +25,7 @@ const Contact = () => {
 
     e.preventDefault();
     e.target.formSubmit.innerHTML = "Submitting..."
-    let url = 'https://script.google.com/macros/s/AKfycbxyVZD13z5GARJ_lbQkAJeXf1PQzOCZ8GCnmORKg21HF9KTFaItgUkYhw11GK4xTrPL2w/exec'
+    let url = 'https://script.google.com/macros/s/AKfycbz5hmlFv6dCOWjfDhYHHuaFNyCMNP5KvospVh-HkXUw9tnA9Q9IocIIyVS_x06h5IEMDg/exec'
     fetch(url, {
       method: 'POST',
       body: JSON.stringify(formData)
